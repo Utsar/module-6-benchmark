@@ -1,0 +1,24 @@
+{
+  "name": "module-6-day-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "setup": "node src/scripts/import",
+    "start": "nodemon -r dotenv/config src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
